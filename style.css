@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    
+    background-color: rgb(167, 146, 168);
+    color: #160202;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+
+.logo {
+    height: 70px; 
+    float: left;
+}
+
+.logoLogout {
+    height: 50px; 
+    float: right; 
+    margin-top: 12px;
+} 
+
+
+.list{
+    /* margin-left: 600px; */
+    float: right;
+}
+
+
+
+.unList {
+    list-style: none;  
+    padding: 27px;
+}
+
+
+.distanceBetween {
+    margin-left: 50px;
+    cursor: pointer;
+
+    @media screen and (max-width: 570px) {
+        margin-left: 4px !important;
+    }
+
+    
+
+}
+
+
+
+.logout {
+    position: relative;
+    cursor: pointer;
+}
+
+.logoutPopup {
+    display: none;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 100px;
+    height: 70px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.logout:hover .logoutPopup {
+    display: block;
+}
+
+
+.logoutPopup a {
+    display: block;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.about{
+    position: relative;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+
+.aboutUl{
+    display: none;
+    position: absolute;
+
+    top: 3vh;
+    width: 300px;
+    height: 140px;
+    list-style-type: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-left: 100px;
+ 
+    
+.myProfile{
+  width: 22vh;
+  float: left;
+}
+
+
+.content{
+   padding:0px;
+   margin-left: 140px;
+}
+
+.content2{
+    padding:2px;
+    margin-left: 140px;
+
+}
+
+}
+
+
+.about:hover .aboutUl{
+display:block;
+
+}
+
+
+.contact{
+    position: relative;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.contactUl{
+    display: none;
+    position: absolute;
+    top: -2%;
+    width: 200px;
+    height: 70px;
+    list-style-type: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-left: 200px;
+}
+
+.contact:hover .contactUl{
+    display: block;
+    .contactitem{
+        margin-left: 20px;
+        text-decoration: none;
+    } 
+}
+
+
+.service{
+    position: relative;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.serviceUl{
+    display: none;
+    position: absolute;
+    top: -2%;
+    width: 100px;
+    height: 100px;
+    list-style-type: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-left: 300px;
+
+}
+
+
+.service:hover .serviceUl{
+
+    display: block;
+    .servicelist{
+        margin-left: 8px;
+        text-decoration: none;
+    }
+}
+}
+
+
+
+.heading{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(167, 146, 168);
+    color: #160202;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} 
+
+
+
+@media screen and (max-width: 570px) {
+    /* .unList {
+        padding: 2px important;
+    }*/
+
+    /* .distanceBetween {
+        margin-left: 4px !important;
+    }  */
+
+    .list{
+        float: left !important;
+    }
+
+    .serviceUl{
+        margin-left: 100px !important;
+
+    }
+
+    .contactUl{
+        margin-left: 70px !important;
+        width: 110px !important;
+        height: 100px !important;
+        
+
+    }
+
+    .aboutUl{
+        margin-left: 40px !important;
+        width: 200px !important;
+        height: 120px !important;
+
+
+        .myProfile{
+            width: 15vh !important;
+            height: 125px !important;
+          }
+          
+          
+          .content{
+             padding:0px;
+             margin-left: 70px !important;
+             margin-top: 2px !important;
+          }
+          
+          .content2{
+              padding:0px !important;
+              margin-left: 70px !important;
+          
+          }
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 386px) {
+    .unList {
+        padding: 2px !important;
+    }
+
+    .logo{
+        height: 50px !important;
+    }
+    .head{
+        height: 50px !important;
+    }
+    
+    .logoLogout{
+        height: 30px !important;
+    }
+    .distanceBetween {
+        margin-left: 0px !important;
+    }
+}
+
+
